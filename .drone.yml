@@ -1,15 +1,16 @@
 kind: pipeline
 type: docker
-name: HowMuchDoesThisMeetingcost
+name: default
 
 steps:
 - name: test
   image: node
   commands:
   - npm install
-  - npm test
--name: build
+  - npm run test
+
+- name: build
   image: node
   commands:
-  -npm install
-  -npm run build
+  - npm install
+  - npm run build
