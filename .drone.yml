@@ -10,6 +10,6 @@ steps:
   - npm test
 -name: build
   image: node
-  command:
+  commands:
   -npm install
   -npm run build
