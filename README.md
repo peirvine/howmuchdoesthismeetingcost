@@ -1,3 +1,5 @@
+[![Build Status](https://cloud.drone.io/api/badges/peirvine/howmuchdoesthismeetingcost/status.svg)](https://cloud.drone.io/peirvine/howmuchdoesthismeetingcost)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
