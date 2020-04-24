@@ -1,0 +1,23 @@
+kind: pipeline
+type: docker
+name: greeting
+
+environment:
+  GREETING_EN: hello
+
+steps:
+- name: en
+  image: alpine
+  commands:
+  - echo $GREETING_EN
+  - echo world
+- name: test
+  image: node
+  commands:
+  - npm install
+  - npm test
+-name: build
+  image: node
+  command:
+  -npm install
+  -npm run build
