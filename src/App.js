@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
 
-This meeting costs a lot yo
+This meeting costs a lot yo  
         </p>
         <a
           className="App-link"
